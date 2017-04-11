@@ -4,7 +4,9 @@
   "description": "Payment Processor for apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "gulp run",
+    "dist" : "gulp dist",
+    "push" : "npm run dist && git push --all http"
   },
   "author": "Ehbraheem <ehbraheem@gmail.com>",
   "license": "MIT",
